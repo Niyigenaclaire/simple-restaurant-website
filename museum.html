@@ -1,75 +1,117 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Kigali Genocide Memorial</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kigali Genocide Memorial - A Place of Remembrance</title>
     <link rel="stylesheet" href="museum.css">
 </head>
 <body>
     <nav>
-        <a href="index.html">Home</a>
-        <a href="museum.html">Museum</a>
-        <a href="park.html">Park</a>
-        <a href="restaurant.html">Restaurant</a>
-        <a href="market.html">Market</a>
+        <div class="nav-container">
+            <div class="logo">Kigali Guide</div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="museum.html" class="active">Museum</a>
+                <a href="park.html">Park</a>
+                <a href="restaurant.html">Restaurant</a>
+                <a href="market.html">Market</a>
+            </div>
+        </div>
     </nav>
 
-    <h1>Kigali Genocide Memorial</h1>
+    <header class="page-header">
+        <div class="container">
+            <h1>Kigali Genocide Memorial</h1>
+            <p class="subtitle">A Place of Remembrance and Learning</p>
+        </div>
+    </header>
     
-    <img src="2.jpg" alt="Memorial">
-    <img src="3.jpg" alt="Gardens">
+    <section class="gallery">
+        <div class="container">
+            <div class="image-grid">
+                <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=600" alt="Travel Adventure">
+                <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=600" alt="Exploring Destinations">
+            </div>
+        </div>
+    </section>
     
-    <p>The Kigali Genocide Memorial is a place to remember and learn about history.</p>
-    
-    <h2>What You Can See</h2>
-    <ul>
-        <li>Museum with photos and stories</li>
-        <li>Beautiful gardens</li>
-        <li>Memorial walls</li>
-        <li>Education center</li>
-    </ul>
-    
-    <h2>Visiting Information</h2>
-    <table border="1">
-        <tr>
-            <th>Day</th>
-            <th>Opening Time</th>
-            <th>Closing Time</th>
-        </tr>
-        <tr>
-            <td>Monday</td>
-            <td>9:00 AM</td>
-            <td>5:00 PM</td>
-        </tr>
-        <tr>
-            <td>Tuesday</td>
-            <td>9:00 AM</td>
-            <td>5:00 PM</td>
-        </tr>
-        <tr>
-            <td>Wednesday</td>
-            <td>9:00 AM</td>
-            <td>5:00 PM</td>
-        </tr>
-        <tr>
-            <td>Sunday</td>
-            <td>Closed</td>
-            <td>Closed</td>
-        </tr>
-    </table>
-    
-    <h2>Location</h2>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.5!2d30.0!3d-1.9!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMcKwNTQnMDAuMCJTIDMwwrAwMCcwMC4wIkU!5e0!3m2!1sen!2srw!4v1234567890" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    
-    <h2>Audio Guide</h2>
-    <audio controls>
-        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
-        Your browser does not support audio.
-    </audio>
-    
-    <p><a href="index.html">Back to Home</a></p>
+    <section class="content">
+        <div class="container">
+            <div class="info-box">
+                <p class="description">The Kigali Genocide Memorial is a place to remember and learn about Rwanda's history. It honors the memory of those who lost their lives and educates visitors about peace and reconciliation.</p>
+            </div>
+            
+            <div class="features">
+                <h2>What You Can See</h2>
+                <ul>
+                    <li>Museum with photos and stories</li>
+                    <li>Beautiful memorial gardens</li>
+                    <li>Memorial walls with names</li>
+                    <li>Education center and library</li>
+                    <li>Children's memorial</li>
+                </ul>
+            </div>
+            
+            <div class="schedule">
+                <h2>Visiting Information</h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Day</th>
+                                <th>Opening Time</th>
+                                <th>Closing Time</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Monday - Friday</td>
+                                <td>9:00 AM</td>
+                                <td>5:00 PM</td>
+                            </tr>
+                            <tr>
+                                <td>Saturday</td>
+                                <td>9:00 AM</td>
+                                <td>5:00 PM</td>
+                            </tr>
+                            <tr>
+                                <td>Sunday</td>
+                                <td>10:00 AM</td>
+                                <td>4:00 PM</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p class="note">Entry is free. Guided tours available.</p>
+            </div>
+            
+            <div class="location">
+                <h2>Location</h2>
+                <div class="map-wrapper">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.5166!2d30.0877!3d-1.9536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca425d3ddc1d1%3A0x5e9c5b8e8e8e8e8e!2sKigali%20Genocide%20Memorial!5e0!3m2!1sen!2srw!4v1234567890" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            
+            <div class="audio-guide">
+                <h2>Audio Guide</h2>
+                <p>Listen to learn more about the memorial:</p>
+                <audio controls>
+                    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                    Your browser does not support audio.
+                </audio>
+            </div>
+            
+            <div class="back-link">
+                <a href="index.html" class="btn">← Back to Home</a>
+            </div>
+        </div>
+    </section>
     
     <footer>
-        <p>Made by a beginner student</p>
+        <div class="container">
+            <p>© 2024 Kigali Guide | Developed by Niyigena Claire</p>
+        </div>
     </footer>
 </body>
 </html>

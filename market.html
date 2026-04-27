@@ -1,76 +1,167 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Kimironko Market</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kimironko Market - Kigali's Largest Market</title>
     <link rel="stylesheet" href="market.css">
 </head>
 <body>
     <nav>
-        <a href="index.html">Home</a>
-        <a href="museum.html">Museum</a>
-        <a href="park.html">Park</a>
-        <a href="restaurant.html">Restaurant</a>
-        <a href="market.html">Market</a>
+        <div class="nav-container">
+            <div class="logo">Kigali Guide</div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="museum.html">Museum</a>
+                <a href="park.html">Park</a>
+                <a href="restaurant.html">Restaurant</a>
+                <a href="market.html" class="active">Market</a>
+            </div>
+        </div>
     </nav>
 
-    <h1>Kimironko Market</h1>
+    <header class="page-header">
+        <div class="container">
+            <h1>Kimironko Market</h1>
+            <p class="subtitle">Kigali's Vibrant Shopping Experience</p>
+        </div>
+    </header>
     
-    <img src="4.jpg" alt="Market">
-    <img src="5.jpg" alt="Fruits">
-    <img src="6.jpg" alt="Fabrics">
+    <section class="gallery">
+        <div class="container">
+            <div class="image-grid">
+                <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=600" alt="Travel Exploration">
+                <img src="https://images.unsplash.com/photo-1503220317375-aaad61436b1b?w=600" alt="Travel Journey">
+                <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=600" alt="Adventure Travel">
+            </div>
+        </div>
+    </section>
     
-    <p>Kimironko Market is the biggest market in Kigali. You can buy many things here.</p>
-    
-    <h2>What You Can Buy</h2>
-    <ul>
-        <li>Fresh fruits and vegetables</li>
-        <li>Clothes and shoes</li>
-        <li>Traditional fabrics</li>
-        <li>Handmade crafts</li>
-        <li>Food and spices</li>
-    </ul>
-    
-    <h2>Best Days to Visit</h2>
-    <ol>
-        <li>Saturday - Most vendors are there</li>
-        <li>Wednesday - Fresh produce day</li>
-        <li>Friday - Good for shopping</li>
-    </ol>
-    
-    <h2>Market Sections</h2>
-    <table border="1">
-        <tr>
-            <th>Section</th>
-            <th>What They Sell</th>
-        </tr>
-        <tr>
-            <td>Section A</td>
-            <td>Fruits and Vegetables</td>
-        </tr>
-        <tr>
-            <td>Section B</td>
-            <td>Clothes and Fabrics</td>
-        </tr>
-        <tr>
-            <td>Section C</td>
-            <td>Shoes and Bags</td>
-        </tr>
-        <tr>
-            <td>Section D</td>
-            <td>Crafts and Souvenirs</td>
-        </tr>
-    </table>
-    
-    <h2>Watch Market Tour Video</h2>
-    <iframe width="400" height="300" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
-    
-    <h2>Find Us on Map</h2>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.5!2d30.1!3d-1.95!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMcKwNTcnMDAuMCJTIDMwwrAwNicwMC4wIkU!5e0!3m2!1sen!2srw!4v1234567890" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    
-    <p><a href="index.html">Back to Home</a></p>
+    <section class="content">
+        <div class="container">
+            <div class="intro-box">
+                <p class="description">Kimironko Market is the largest and most vibrant market in Kigali. From fresh produce to traditional crafts, you'll find everything you need in this bustling marketplace.</p>
+            </div>
+            
+            <div class="products">
+                <h2>What You Can Buy</h2>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <h3>Fresh Produce</h3>
+                        <p>Fruits, vegetables, and herbs</p>
+                    </div>
+                    <div class="product-card">
+                        <h3>Clothes & Shoes</h3>
+                        <p>Fashion for all ages</p>
+                    </div>
+                    <div class="product-card">
+                        <h3>Traditional Fabrics</h3>
+                        <p>Beautiful African prints</p>
+                    </div>
+                    <div class="product-card">
+                        <h3>Handmade Crafts</h3>
+                        <p>Unique souvenirs</p>
+                    </div>
+                    <div class="product-card">
+                        <h3>Food & Spices</h3>
+                        <p>Local ingredients</p>
+                    </div>
+                    <div class="product-card">
+                        <h3>Home Goods</h3>
+                        <p>Kitchenware and decor</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="best-days">
+                <h2>Best Days to Visit</h2>
+                <div class="days-list">
+                    <div class="day-card">
+                        <span class="day-number">1</span>
+                        <div class="day-info">
+                            <h3>Saturday</h3>
+                            <p>Most vendors are present - busiest day with the best selection</p>
+                        </div>
+                    </div>
+                    <div class="day-card">
+                        <span class="day-number">2</span>
+                        <div class="day-info">
+                            <h3>Wednesday</h3>
+                            <p>Fresh produce day - best time for fruits and vegetables</p>
+                        </div>
+                    </div>
+                    <div class="day-card">
+                        <span class="day-number">3</span>
+                        <div class="day-info">
+                            <h3>Friday</h3>
+                            <p>Great for shopping - good variety and less crowded</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="sections">
+                <h2>Market Sections</h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Section</th>
+                                <th>What They Sell</th>
+                                <th>Best Time</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Section A</td>
+                                <td>Fruits and Vegetables</td>
+                                <td>Morning</td>
+                            </tr>
+                            <tr>
+                                <td>Section B</td>
+                                <td>Clothes and Fabrics</td>
+                                <td>All Day</td>
+                            </tr>
+                            <tr>
+                                <td>Section C</td>
+                                <td>Shoes and Bags</td>
+                                <td>All Day</td>
+                            </tr>
+                            <tr>
+                                <td>Section D</td>
+                                <td>Crafts and Souvenirs</td>
+                                <td>Afternoon</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p class="note">Tip: Bargaining is expected! Don't be shy to negotiate prices.</p>
+            </div>
+            
+            <div class="video-section">
+                <h2>Market Tour Video</h2>
+                <div class="video-wrapper">
+                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/SXB24w86_c8" title="Kigali Market Tour" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            
+            <div class="location">
+                <h2>Find Us on the Map</h2>
+                <div class="map-wrapper">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.5!2d30.1!3d-1.95!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca6e8e8e8e8e8%3A0x5e9c5b8e8e8e8e8e!2sKimironko%20Market!5e0!3m2!1sen!2srw!4v1234567890" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            
+            <div class="back-link">
+                <a href="index.html" class="btn">← Back to Home</a>
+            </div>
+        </div>
+    </section>
     
     <footer>
-        <p>Made by a beginner student</p>
+        <div class="container">
+            <p>© 2024 Kigali Guide | Developed by Niyigena Claire</p>
+        </div>
     </footer>
 </body>
 </html>

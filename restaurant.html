@@ -1,77 +1,155 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Heaven Restaurant</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heaven Restaurant - Delicious Dining in Kigali</title>
     <link rel="stylesheet" href="restaurant.css">
 </head>
 <body>
     <nav>
-        <a href="index.html">Home</a>
-        <a href="museum.html">Museum</a>
-        <a href="park.html">Park</a>
-        <a href="restaurant.html">Restaurant</a>
-        <a href="market.html">Market</a>
+        <div class="nav-container">
+            <div class="logo">Kigali Guide</div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="museum.html">Museum</a>
+                <a href="park.html">Park</a>
+                <a href="restaurant.html" class="active">Restaurant</a>
+                <a href="market.html">Market</a>
+            </div>
+        </div>
     </nav>
 
-    <h1>Heaven Restaurant</h1>
+    <header class="page-header">
+        <div class="container">
+            <h1>Heaven Restaurant</h1>
+            <p class="subtitle">Experience Authentic Rwandan Cuisine</p>
+        </div>
+    </header>
     
-    <img src="9.jpg" alt="Restaurant">
-    <img src="10.jpg" alt="Food">
+    <section class="gallery">
+        <div class="container">
+            <div class="image-grid">
+                <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600" alt="Travel Dining">
+                <img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=600" alt="Travel Experience">
+            </div>
+        </div>
+    </section>
     
-    <p>Heaven Restaurant is a popular place to eat in Kigali. They serve tasty food.</p>
-    
-    <h2>Popular Foods</h2>
-    <ul>
-        <li>Ugali with beans</li>
-        <li>Grilled chicken</li>
-        <li>Rice and vegetables</li>
-        <li>Fresh juice</li>
-    </ul>
-    
-    <h2>Menu Prices</h2>
-    <table border="1">
-        <tr>
-            <th>Food Item</th>
-            <th>Price</th>
-        </tr>
-        <tr>
-            <td>Ugali with beans</td>
-            <td>2000 RWF</td>
-        </tr>
-        <tr>
-            <td>Grilled chicken</td>
-            <td>3500 RWF</td>
-        </tr>
-        <tr>
-            <td>Rice and vegetables</td>
-            <td>2500 RWF</td>
-        </tr>
-        <tr>
-            <td>Fresh juice</td>
-            <td>1000 RWF</td>
-        </tr>
-    </table>
-    
-    <h2>Opening Hours</h2>
-    <ol>
-        <li>Monday to Friday: 8 AM to 10 PM</li>
-        <li>Saturday: 9 AM to 11 PM</li>
-        <li>Sunday: 10 AM to 9 PM</li>
-    </ol>
-    
-    <h2>Visit Their Website</h2>
-    <p><a href="https://www.heavenrestaurant.rw" target="_blank">Click here to visit Heaven Restaurant website</a></p>
-    
-    <h2>Background Music</h2>
-    <audio controls>
-        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" type="audio/mpeg">
-        Your browser does not support audio.
-    </audio>
-    
-    <p><a href="index.html">Back to Home</a></p>
+    <section class="content">
+        <div class="container">
+            <div class="intro-box">
+                <p class="description">Heaven Restaurant is one of Kigali's most popular dining destinations, serving delicious traditional Rwandan dishes and international cuisine in a warm, welcoming atmosphere.</p>
+            </div>
+            
+            <div class="popular-dishes">
+                <h2>Popular Dishes</h2>
+                <div class="dish-grid">
+                    <div class="dish-card">
+                        <h3>Ugali with Beans</h3>
+                        <p>Traditional cornmeal with savory beans</p>
+                    </div>
+                    <div class="dish-card">
+                        <h3>Grilled Chicken</h3>
+                        <p>Perfectly seasoned and grilled</p>
+                    </div>
+                    <div class="dish-card">
+                        <h3>Rice & Vegetables</h3>
+                        <p>Fresh, healthy, and delicious</p>
+                    </div>
+                    <div class="dish-card">
+                        <h3>Fresh Juice</h3>
+                        <p>Made from local tropical fruits</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="menu">
+                <h2>Menu & Prices</h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Food Item</th>
+                                <th>Description</th>
+                                <th>Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Ugali with Beans</td>
+                                <td>Traditional Rwandan staple</td>
+                                <td class="price">2,000 RWF</td>
+                            </tr>
+                            <tr>
+                                <td>Grilled Chicken</td>
+                                <td>Marinated and charcoal grilled</td>
+                                <td class="price">3,500 RWF</td>
+                            </tr>
+                            <tr>
+                                <td>Rice and Vegetables</td>
+                                <td>Steamed rice with fresh veggies</td>
+                                <td class="price">2,500 RWF</td>
+                            </tr>
+                            <tr>
+                                <td>Fresh Juice</td>
+                                <td>Passion fruit, mango, or pineapple</td>
+                                <td class="price">1,000 RWF</td>
+                            </tr>
+                            <tr>
+                                <td>Isombe</td>
+                                <td>Cassava leaves with peanut sauce</td>
+                                <td class="price">2,800 RWF</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="hours">
+                <h2>Opening Hours</h2>
+                <div class="hours-list">
+                    <div class="hour-item">
+                        <span class="day">Monday - Friday</span>
+                        <span class="time">8:00 AM - 10:00 PM</span>
+                    </div>
+                    <div class="hour-item">
+                        <span class="day">Saturday</span>
+                        <span class="time">9:00 AM - 11:00 PM</span>
+                    </div>
+                    <div class="hour-item">
+                        <span class="day">Sunday</span>
+                        <span class="time">10:00 AM - 9:00 PM</span>
+                    </div>
+                </div>
+                <p class="note">Reservations recommended for weekends</p>
+            </div>
+            
+            <div class="website-link">
+                <h2>Visit Our Website</h2>
+                <p>Learn more about our menu, events, and special offers:</p>
+                <a href="https://www.heavenrestaurant.rw" target="_blank" class="btn">Visit Heaven Restaurant Website →</a>
+            </div>
+            
+            <div class="audio-section">
+                <h2>Restaurant Ambiance</h2>
+                <p>Listen to the relaxing background music we play:</p>
+                <audio controls>
+                    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" type="audio/mpeg">
+                    Your browser does not support audio.
+                </audio>
+            </div>
+            
+            <div class="back-link">
+                <a href="index.html" class="btn-back">← Back to Home</a>
+            </div>
+        </div>
+    </section>
     
     <footer>
-        <p>Made by a beginner student</p>
+        <div class="container">
+            <p>© 2024 Kigali Guide | Developed by Niyigena Claire</p>
+        </div>
     </footer>
 </body>
 </html>
