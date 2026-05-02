@@ -259,6 +259,117 @@ button {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+/* Responsive Design */
+@media (max-width: 992px) {
+    .hero {
+        height: auto;
+        padding: 80px 20px;
+    }
+
+    .hero-content h1 {
+        font-size: 38px;
+    }
+
+    .hero-subtitle {
+        font-size: 20px;
+    }
+
+    .nav-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .video-wrapper iframe {
+        height: 300px;
+    }
+
+    form {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav a {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    .hero-content h1 {
+        font-size: 30px;
+    }
+
+    .hero-subtitle {
+        font-size: 18px;
+    }
+
+    .intro,
+    .places,
+    .video-section,
+    .contact {
+        padding: 40px 0;
+    }
+
+    .video-wrapper iframe {
+        height: 240px;
+    }
+
+    button {
+        padding: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .nav-links {
+        gap: 5px;
+    }
+
+    nav a {
+        padding: 8px 12px;
+    }
+
+    .hero {
+        padding: 60px 10px;
+    }
+
+    .hero-content h1 {
+        font-size: 26px;
+    }
+
+    .hero-subtitle {
+        font-size: 16px;
+    }
+
+    .intro-text {
+        font-size: 18px;
+    }
+
+    .place-card {
+        padding: 20px;
+    }
+
+    .video-wrapper iframe {
+        height: 220px;
+    }
+
+    form {
+        padding: 20px;
+    }
+}
+
 button:hover {
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
